@@ -1,2 +1,1 @@
-# Py_for_Fin_IESEG
-Python for Finance course at IESEG (1104) for master student.
+# Python for Finance IESEGPython for Finance course at IESEG (1104) for master student.
