@@ -1,3 +1,46 @@
-# Python for Finance IESEG 
+# Python for Finance (1104)
 
-Python for Finance course at IESEG (1104) for master student.
+Professor : Ubeydullah Ozcan\
+email : o.ubeydullah@ieseg.fr\
+Scheduling : 2 x 4h
+
+## Objectives
+
+---
+* General reminder of some basic Python concept and introduction to IDE and create a stable environment,
+* Data extraction, analysis, cleaning and visualization,
+* Implementation of simple trading strategy as introduction of algorithmic trading based on data from stock market,
+* Application of a clustering/regression model to financial data,
+* Introduction to quantitative Finance (Option Pricing, Risk Measure)
+* Introduction Web Application using Streamlit Framework
+
+## Courses Structure
+
+---
+
+### Course 1 :
+* Introduction to IDE and virtual environment,
+* How to organize a Python project,
+* ETL (Extract, Transform, Load) data from an API,
+* Theoretical introduction to Algorithmic Trading and overview of some basic strategies,
+* Implementation of the studied strategies,
+* Analysis of the outcome and create an automate reporting.
+
+### Course 2 :
+* Introduction to k-means clustering model,
+* Application of k-means to stock market data,
+* Introduction and application of CAPM Model
+* European option Pricing using Monte-Carlo Method (If enough time)
+* Introduction to Streamlit Web Application (If enough time)
+
+
+## Evaluation Method
+
+---
+Individual Project : 50 %\
+Le Wagon : 
+
+## Expected Presence
+
+---
+Being present and actively participate is highly recommended but not mandatory as most of the information will be given during the course.

@@ -1,0 +1,11 @@
+name: py_4_fin
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scikit-learn
+  - streamlit
+  - plotly
+  - yfinance
+  - ta
