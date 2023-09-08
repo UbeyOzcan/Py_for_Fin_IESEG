@@ -33,12 +33,20 @@ Scheduling : 2 x 4h
 * European option Pricing using Monte-Carlo Method (If enough time)
 * Introduction to Streamlit Web Application (If enough time)
 
+### Course Material
+All the course material can be found on Github through the link below.\
+
+[Course Material](https://github.com/UbeyOzcan/Py_for_Fin_IESEG)
+
+You have 2 choices to download the material :
+* If you are familiar with the content, please Fork the repository,
+* If not, please download all the material using the Code > Download Zip button
 
 ## Evaluation Method
 
 ---
-Individual Project : 50 %\
-Le Wagon : 
+Individual Project : 60 %\
+Le Wagon : 40 %
 
 ## Expected Presence
 

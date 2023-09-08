@@ -9,3 +9,4 @@ dependencies:
   - plotly
   - yfinance
   - ta
+  - openpyxl

@@ -11,7 +11,7 @@ def plot_startegy(strategy_result):
     fig2.add_hline(y=70, line_width=3, line_dash="dash", line_color="green")
     fig2.add_hline(y=30, line_width=3, line_dash="dash", line_color="green")
 
-    fig3 = strategy_result['df'].Close.plot(title="Closing price and signals", template="simple_white",
+    fig3 = strategy_result['df'].Open.plot(title="Open price and signals", template="simple_white",
                                             labels=dict(index="time", value="Prices", variable="Metric"))
 
     fig3 = fig3.add_trace(go.Scatter(x=strategy_result['df'].loc[strategy_result['buydates']].index,
