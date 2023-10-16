@@ -52,3 +52,12 @@ Le Wagon : 40 %
 
 ---
 Being present and actively participate is highly recommended but not mandatory as most of the information will be given during the course.
+
+## Prerequisite
+
+---
+### Install Miniconda
+
+Please install Miniconda at this link ==> [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
+
+---
