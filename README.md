@@ -62,6 +62,8 @@ Please install **Git** at this link ==> [Git](https://git-scm.com/downloads)
 
 ### Pycharm
 
-Please Install **Pycharm** at this link ==> [Pycharm]()
+Please Install **Pycharm** at this link ==> [Pycharm](https://www.jetbrains.com/help/pycharm/installation-guide.html#standalone)
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](pycharm installation.png)
 
 ---
