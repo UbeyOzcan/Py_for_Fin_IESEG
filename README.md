@@ -53,6 +53,15 @@ Being present and actively participate is highly recommended but not mandatory a
 
 ### Install Miniconda
 
-Please install Miniconda at this link ==> [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
+Please install **Miniconda** at this link ==> [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
+N.B : Add the PATH to the environment variable.
+
+### Install Git
+
+Please install **Git** at this link ==> [Git](https://git-scm.com/downloads)
+
+### Pycharm
+
+Please Install **Pycharm** at this link ==> [Pycharm]()
 
 ---
