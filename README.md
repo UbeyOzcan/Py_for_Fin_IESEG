@@ -1,12 +1,11 @@
 # Python for Finance (1104)
-
+---
 Professor : Ubeydullah Ozcan\
 email : o.ubeydullah@ieseg.fr\
 Scheduling : 2 x 4h
 
 ## Objectives
 
----
 * General reminder of some basic Python concept and introduction to IDE and create a stable environment,
 * Data extraction, analysis, cleaning and visualization,
 * Implementation of simple trading strategy as introduction of algorithmic trading based on data from stock market,
@@ -16,7 +15,6 @@ Scheduling : 2 x 4h
 
 ## Courses Structure
 
----
 
 ### Course 1 :
 * Introduction to IDE and virtual environment,
@@ -44,18 +42,15 @@ You have 2 choices to download the material :
 
 ## Evaluation Method
 
----
 Individual Project : 60 %\
 Le Wagon : 40 %
 
 ## Expected Presence
 
----
 Being present and actively participate is highly recommended but not mandatory as most of the information will be given during the course.
 
 ## Prerequisite
 
----
 ### Install Miniconda
 
 Please install Miniconda at this link ==> [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
