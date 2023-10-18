@@ -27,10 +27,23 @@ $$\mu + \delta \sigma $$
 * Lower Band is :
 $$\mu - \delta \sigma $$
 
-$\delta $ parameter could be adapted based on the analysis (1.5, 2, 2.5, ..)
+$\delta$ parameter could be adapted based on the analysis (1.5, 2, 2.5, ..)
 
 ##### Interpreation and use
 
 The purpose of Bollinger Bands is to provide a relative definition of high and low prices of a market. By definition, prices are high at the upper band and low at the lower band.
 
 The use of Bollinger Bands varies widely among traders. Some traders buy when price touches the lower Bollinger Band and exit when price touches the moving average in the center of the bands. Other traders buy when price breaks above the upper Bollinger Band or sell when price falls below the lower Bollinger Band.
+
+#### Relative Strength Index
+
+$$RSI = \frac{U(n)}{U(n) + D(n)} \times (100) $$
+
+where :
+* U : Exponential smoothed moving average of n-period of upward change 
+* D : Exponential smoothed moving average of n-period of downward change 
+* n : Period of moving average
+
+##### Interpreation and use
+
+Traditionally, RSI readings greater than the 70 level are considered to be in overbought territory, and RSI readings lower than the 30 level are considered to be in oversold territory. In between the 30 and 70 level is considered neutral, with the 50 level a sign of no trend.
