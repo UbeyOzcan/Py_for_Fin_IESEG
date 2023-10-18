@@ -3,8 +3,6 @@ from funcs.Bollinger import bollinger
 from funcs.RSI import rsi
 from funcs.Strategy import strategy
 from funcs.Graph import plot_startegy
-import plotly.express as px
-import plotly.graph_objects as go
 import pandas as pd
 import openpyxl
 
@@ -26,37 +24,29 @@ result_strat_1 = strategy(df_prices=rsi,
                           rsi_upper=60,
                           stop_loss=False)
 
-result_strat_1["df"].to_excel('Result of Strategy one.xlsx')
-
 result_strat_2 = strategy(
     df_prices=rsi,
     rsi_lower=40,
     rsi_upper=60,
     stop_loss=True,
     sl=0.70)
-
-result_strat_1["df"].to_excel('Result of Strategy two.xlsx')
-
 fig1_strat_1, fig2_strat_1, fig3_strat_1 = plot_startegy(result_strat_1)
 fig1_strat_2, fig2_strat_2, fig3_strat_2 = plot_startegy(result_strat_2)
-
-fig3_strat_1.write_image(file='plot.png', format='png')
+fig3_strat_2.write_image(file='plot.png', format='png')
+result_strat_1["df"].to_excel('Result of Strategy two.xlsx', sheet_name='Dataset')
+with pd.ExcelWriter(
+        "Result of Strategy two.xlsx",
+        mode="a",
+        engine="openpyxl",
+        if_sheet_exists="replace",
+) as writer:
+    result_strat_1["buy"].to_excel(writer, sheet_name='buy')
+    result_strat_1["sell"].to_excel(writer, sheet_name='sell')
+    
 
 # Insert graph into excel
-wb = openpyxl.load_workbook('Result of Strategy one.xlsx')
+wb = openpyxl.load_workbook('Result of Strategy two.xlsx')
 sh = wb.create_sheet('graph')
 
 img = openpyxl.drawing.image.Image('plot.png')
 sh.add_image(img, 'B2')
-
-wb.save('Result of Strategy one.xlsx')
-wb.close()
-exit()
-# fig1_strat_1.show()
-# fig2_strat_1.show()
-fig3_strat_1.show()
-print(result_strat_1['return'])
-# fig1_strat_2.show()
-# fig2_strat_2.show()
-fig3_strat_2.show()
-print(result_strat_2['return'])

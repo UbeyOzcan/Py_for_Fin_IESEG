@@ -36,8 +36,14 @@ def strategy(df_prices, rsi_lower: float, rsi_upper: float, stop_loss: bool, sl=
                     position = False
 
     rtn = (pd.Series([(sell - buy) / buy for sell, buy in zip(sellprices, buyprices)]) + 1).prod() - 1
-
+    buy = pd.DataFrame({'buydate': buydates,
+                         'buyprices':buyprices})
+    sell = pd.DataFrame({'selldate': selldates,
+                         'sellprices':sellprices})
+    print(rtn)
     output = {'df': df_prices,
+              'buy': buy,
+              'sell': sell,
               'buydates': buydates,
               'buyprices': buyprices,
               'selldates': selldates,
