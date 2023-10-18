@@ -49,7 +49,7 @@ where :
 Traditionally, RSI readings greater than the 70 level are considered to be in overbought territory, and RSI readings lower than the 30 level are considered to be in oversold territory. In between the 30 and 70 level is considered neutral, with the 50 level a sign of no trend.
 
 
-#### Strategy to implement
+## Strategy to implement
 Here is the Strategy that needs to be implemented :
 * If RSI < rsi_lower AND Closing Price < Lower Bollinger Band ==> BUY
 * If RSI > rsi_lower AND Closing Price > Lower Bollinger Band ==> SELL
