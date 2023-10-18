@@ -50,6 +50,7 @@ Traditionally, RSI readings greater than the 70 level are considered to be in ov
 
 
 ## Strategy to implement
+
 Here is the Strategy that needs to be implemented :
 * If RSI < rsi_lower AND Closing Price < Lower Bollinger Band ==> BUY
 * If RSI > rsi_lower AND Closing Price > Lower Bollinger Band ==> SELL
