@@ -90,6 +90,6 @@ Here are the steps to follow :
   ```
   4. Finally, activate the created environment :
    ```terminal
-  conda activate py_4_fin
+  conda activate test-env
   ```
 ---
