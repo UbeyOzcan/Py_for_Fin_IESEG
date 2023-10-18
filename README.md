@@ -66,4 +66,30 @@ Please Install **Pycharm** at this link ==> [Pycharm](https://www.jetbrains.com/
 
 ![pycharm installation](https://github.com/UbeyOzcan/Py_for_Fin_IESEG/assets/40140140/977ebf22-7f7d-4804-8fb6-e95c1ee02380)
 
+
+### Clone Github Repository
+
+To download the course material, you need to **Clone the Repository** in Pycharm.
+
+Please follow [This Video](https://www.youtube.com/watch?v=cAnWazo5pFU&t=8s) from start to 01:52 !
+
+### Create Virtual environment
+
+Once you have cloned the repository, you need to create a virtual environment. 
+
+Here are the steps to follow :
+
+  1. Open the terminal within PyCharm (alt + F12 or bottom left),
+  2. Navigate into envs folder :
+  ```terminal
+  cd envs
+  ```
+  3. Create the environment using this command into the terminal :
+  ```terminal
+  conda env create
+  ```
+  4. Finally, activate the created environment :
+   ```terminal
+  conda activate test-env
+  ```
 ---
