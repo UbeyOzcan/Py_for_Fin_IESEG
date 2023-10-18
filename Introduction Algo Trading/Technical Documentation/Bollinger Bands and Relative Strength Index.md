@@ -18,15 +18,16 @@ Let $x$ be serie of prices (generally closing price)
 
 Here are the steps to follow to calculate the Bollinder Bands:
 
-* Calculate the Moving Average over *n* period of x $$ \mu = \frac{1}{n} \sum_{i}^n x_i $$
+* Calculate the Moving Average over *n* period of x 
+$$\mu = \frac{1}{n} \sum_{i}^n x_i $$
 * Calculate the standard deviation as follow :
 $$\sigma = \sqrt{\frac{1}{n} \sum_{i}^n (x_i - \mu)^2} $$
 * Upper Band is :
-$$ \mu + \delta \sigma $$
+$$\mu + \delta \sigma $$
 * Lower Band is :
-$$ \mu - \delta \sigma $$
+$$\mu - \delta \sigma $$
 
-$ \delta $ parameter could be adapte based on the analysis (1.5, 2, 2.5, ..)
+$\delta $ parameter could be adapted based on the analysis (1.5, 2, 2.5, ..)
 
 ##### Interpreation and use
 
