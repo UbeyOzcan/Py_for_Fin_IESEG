@@ -86,7 +86,7 @@ Here are the steps to follow :
   ```
   3. Create the environment using this command into the terminal :
   ```terminal
-  conda create environment.yml
+  conda env create
   ```
   4. Finally, activate the created environment :
    ```terminal
