@@ -40,7 +40,6 @@ def strategy(df_prices, rsi_lower: float, rsi_upper: float, stop_loss: bool, sl=
                          'buyprices':buyprices})
     sell = pd.DataFrame({'selldate': selldates,
                          'sellprices':sellprices})
-    print(rtn)
     output = {'df': df_prices,
               'buy': buy,
               'sell': sell,
