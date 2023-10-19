@@ -3,8 +3,8 @@ import pandas as pd
 
 
 def strategy(df_prices, rsi_lower: float, rsi_upper: float, stop_loss: bool, sl=0):
-    conditions = [(df_prices.rsi < rsi_lower) & (df_prices.Close < df_prices.lower_bb),
-                  (df_prices.rsi > rsi_upper) & (df_prices.Close > df_prices.upper_bb)]
+    conditions = [(df_prices.rsi < rsi_upper) & (df_prices.Close < df_prices.lower_bb),
+                  (df_prices.rsi > rsi_lower) & (df_prices.Close > df_prices.upper_bb)]
     choices = ['Buy', 'Sell']
 
     df_prices['signal'] = np.select(conditions, choices)
