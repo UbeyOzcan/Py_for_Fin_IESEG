@@ -43,8 +43,8 @@ result_strat_2 = strategy(df_prices=rsi,
                           stop_loss=sl_2,
                           sl=sl_perc)
 
-fig1_strat_1, fig2_strat_1, fig3_strat_1 = plot_startegy(result_strat_1)
-fig1_strat_2, fig2_strat_2, fig3_strat_2 = plot_startegy(result_strat_2)
+fig1_strat_1, fig2_strat_1, fig3_strat_1 = plot_startegy(result_strat_1, rsi_l=rsi_lower_bound, rsi_u=rsi_upper_bound)
+fig1_strat_2, fig2_strat_2, fig3_strat_2 = plot_startegy(result_strat_2, rsi_l=rsi_lower_bound, rsi_u=rsi_upper_bound)
 
 fig1_strat_1.write_image(file='plot_strat_1_bb.png', format='png')
 fig2_strat_1.write_image(file='plot_strat_1_rsi.png', format='png')
