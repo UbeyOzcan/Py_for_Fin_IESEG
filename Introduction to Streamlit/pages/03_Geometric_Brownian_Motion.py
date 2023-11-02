@@ -5,6 +5,7 @@ import plotly.express as px
 
 pd.options.plotting.backend = "plotly"
 st.set_page_config(layout="wide")
+st.title('Simulation of Geometric Brownian Motion')
 # Parameters
 # drift coefficent
 mu = st.sidebar.number_input('Select the mu parameter : ', value=0.1)

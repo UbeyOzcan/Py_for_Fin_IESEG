@@ -3,9 +3,9 @@ from scipy.stats import norm
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+st.set_page_config(layout="wide")
 
 N = norm.cdf
-
 S0 = st.sidebar.number_input('Current Stock Value : ', value=100)
 K_call = st.sidebar.number_input('Strike long call : ', value=105)
 K_put = st.sidebar.number_input('Strike long put : ', value=95)
