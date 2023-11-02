@@ -19,8 +19,8 @@ df = extract_stock_price(ticker=ticker_to_trade,
 window_bb = 20
 delta = 2
 window_rsi = 6
-rsi_lower_bound = 70
-rsi_upper_bound = 300
+rsi_lower_bound = 20
+rsi_upper_bound = 70
 sl_1 = False
 sl_2 = True
 sl_perc = 0.95
